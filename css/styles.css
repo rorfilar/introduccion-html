@@ -6,7 +6,6 @@
 }
 
 #menu ul li a{
-
 margin-right: 10px;
 padding: 6px 6px;
 background-color: rgb(228, 104, 3);
@@ -52,6 +51,8 @@ background-color: rgba(255, 187, 0, 0.637);
 }
 
 table{
+    margin-top: 20px;
+    margin-left: 20px;
     border: none;
-border-spacing: 0;    
+    border-spacing: 0;    
 }
