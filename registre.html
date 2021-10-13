@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Registre </title>
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+
+            <li><a href="index.html">Inici</a></li>
+
+            <li><a href="horari.html">Horari</a></li>
+
+            <li><a href="simpleweb.html">Simpleweb</a></li>
+
+            <li><a href="registre.html">Registre</a></li>
+        </ul>
+
+    </nav>
+
+    <br>
+
+    <h1>Registre</h1>
+    <form action="/some-server-somewhere" method="post">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder="Su nombre" />
+            <label for="surname">Apellidos:</label>
+            <input type="text" id="surname" placeholder="Su Apellido" />
+        </div>
+        <label for="radio-choice-1">Hombre</label>
+        <input name="option" type="radio" id="radio-choice-1" value="choice-1" />
+        <label for="radio-choice-2">Mujer</label>
+        <input name="option" type="radio" id="radio-choice-2" value="choice-2" />
+        <label for="radio-choice-3">No identificado</label>
+        <input name="option" type="radio" id="radio-choice-3" value="choice-3" />
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Su Email" />
+            <label for="pass">Email</label>
+            <input type="text" id="pass" placeholder="Su Contraseña" />
+        </div>
+        <div>
+            <label for="data">Data de naixement</label>
+            <input type="date" id="data">
+        </div>
+        <label for="radio-choice-4">Estoy de acuerdo con los terminos de servicio:</label>
+        <input name="terms" type="radio" id="radio-choice-4" value="choice-4" />
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

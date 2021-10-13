@@ -1,0 +1,57 @@
+#menu ul li{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    padding: 5px 5px;
+}
+
+#menu ul li a{
+
+margin-right: 10px;
+padding: 6px 6px;
+background-color: rgb(228, 104, 3);
+border-left: rgb(229, 255, 0) 6px solid; 
+text-decoration: none;
+color: white;
+}
+
+.cap{
+    background-color: rgba(252, 158, 35, 0.808);
+}
+
+.hores{
+background-color: rgba(255, 187, 0, 0.637);
+}
+
+.dies{
+    background-color: rgb(255, 208, 119);
+}
+
+.serveis{
+    background-color: rgba(208, 255, 0, 0.589);
+}
+
+.seguretat{
+    background-color: rgba(166, 255, 218, 0.445);
+}
+
+.eie{
+    background-color: rgba(255, 155, 255, 0.671);
+}
+
+.sis{
+    background-color: rgba(255, 252, 95, 0.774);
+}
+
+.app{
+    background-color: rgba(255, 99, 71, 0.555);
+}
+
+.pati{
+    background-color: gainsboro;
+}
+
+table{
+    border: none;
+border-spacing: 0;    
+}
