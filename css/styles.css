@@ -14,6 +14,15 @@ text-decoration: none;
 color: white;
 }
 
+#menu ul li a:hover{
+background-color: rgb(229, 255, 0);
+color: black;
+}
+
+.activa{
+color: orange;
+}
+
 .cap{
     background-color: rgba(252, 158, 35, 0.808);
 }
@@ -51,6 +60,7 @@ background-color: rgba(255, 187, 0, 0.637);
 }
 
 table{
+    text-align: center;
     margin-top: 20px;
     margin-left: 20px;
     border: none;
