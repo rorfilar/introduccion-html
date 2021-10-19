@@ -79,19 +79,29 @@ div:nth-of-type(3) em{
     font-size: 20px;
 }
 
-/*BONUS*/
-/*hauràs de fer recerca*/
+/*Estils per botóns*/
 
-/*Fes que tots el "checked" checkboxes tinguin un marge esquerra de 50px(margin-left: 50px)*/
+#menu ul li{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    padding: 5px 5px;
+}
 
+#menu ul li a{
+margin-right: 10px;
+padding: 6px 6px;
+background-color: rgb(228, 104, 3);
+border-left: rgb(229, 255, 0) 6px solid; 
+text-decoration: none;
+color: white;
+}
 
-/*Fes que l'etiqueta <label> siguin tots UPPERCASE sense canviar el HTML*/
+#menu ul li a:hover{
+background-color: rgb(229, 255, 0);
+color: black;
+}
 
-
-/*Fes que la primera lletra de l'element amb id 'special' sigui verda i amb font de 100px font size(font-size: 100)*/
-
-
-/*Fes que el color de font del <h1> canviï a blau quan el ratolí passi per damuntelement's color change to blue when hovered over */
-
-
-/*Fes que els <a> que hagin estat visitats siguin de color gris */
+.activa{
+color: orange;
+}   
