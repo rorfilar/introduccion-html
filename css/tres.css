@@ -15,41 +15,20 @@ td{
 	height: 100px;
 }
 
-#A1{
+#NONE{
 	border: none;
 }
 
-#A2{
+#TB{
 	border-top: none;
 	border-bottom: none;
 }
 
-#A3{
-	border: none;
-}
-
-#B1{
+#LD{
 	border-left: none;
 	border-right: none;
 }
 
-#B3{
-	border-left: none;
-	border-right: none;
-}
-
-#C1{
-	border: none;
-}
-
-#C2{
-	border-top: none;
-	border-bottom: none;
-}
-
-#C3{
-	border:none;
-}
 
 
 /*Botons*/
